@@ -1,0 +1,48 @@
+html{
+    scroll-behavior: smooth;
+}
+#navigation-header{
+    background-color: grey;
+}
+#website-title{
+    font-family:arial black;
+}
+#navbarNav{
+    text-align: center;
+}
+#link1,#link2,#link3{
+    transition-duration: 0.2s;
+}
+#link1:hover,#link2:hover,#link3:hover{
+    background-color: rgb(179, 176, 174);
+}
+.dropDownPartition{
+    border:1px solid black;
+    width: 100%;
+}
+#body-header{
+    margin-top: 30px;
+    font-size: 1.8em;
+    text-align: center;
+    font-family: arial;
+    font-weight: bold;
+    letter-spacing:1px;
+}
+.container-fluid .row{
+    padding:15px 30px 30px 15px;
+    margin: 20px 20px 20px 20px;
+}
+#main-content .row{
+    margin-top: 30px;
+    background-color: rgb(143, 141, 141);
+}
+#main-content .row .col-xs-12 h3{
+    font-family: arial;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+#main-content .row .col-xs-12 p{
+    font-weight: bold;
+    font-size: medium;
+}
